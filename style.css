@@ -1,0 +1,45 @@
+body {
+    background-color: gray;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.btn-secondary{
+    margin-left: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.container {
+    background-color: white;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.rounded-lg {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.card {
+    margin-top: 20px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+
+.bg-primary {
+    background-color: white!important;
+}
+
+.navbar-dark .navbar-brand {
+    margin: auto;
+    color: black;
+    text-align: center;
+}
