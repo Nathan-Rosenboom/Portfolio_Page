@@ -4,6 +4,7 @@ body {
 
 .navbar {
     background-color: white;
+    font-weight: bolder;
 }
 
 .btn-secondary{
@@ -29,6 +30,11 @@ body {
 .card {
     margin-top: 20px;
     
+}
+
+.project-card {
+    text-align: center;
+    font-weight: bolder;
 }
 
 .bg-primary {
