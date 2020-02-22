@@ -28,9 +28,6 @@ body {
 
 .card {
     margin-top: 20px;
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
     
 }
 
@@ -39,6 +36,8 @@ body {
 }
 
 .navbar-dark .navbar-brand {
+    font-size: small;
+    height: 20px;
     margin: auto;
     color: black;
     text-align: center;
