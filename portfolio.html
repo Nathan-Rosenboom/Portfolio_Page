@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;900&family=Rubik:wght@500&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -15,8 +16,8 @@
   </head>
   <body>
     <!--Navbar Code - Keep the same across all linked pages-->
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Nathan Rosenboom</a>
+    <nav class="navbar navbar-nav navbar-light bg-light header">
+      <a class="navbar-brand title" href="index.html">Nathan Rosenboom</a>
       <div
         class="btn-group btn-group-lg"
         role="group"
@@ -36,31 +37,33 @@
     <div class="container rounded-lg">
       <div class="row">
         <div class="col-md-4">
-          <h1>Portfolio</h1>
+          <h1 id="about">Portfolio</h1>
         </div>
       </div>
       <!--Code below displays thumbnail images and captions for Projects-->
       <div class="row">
         <div class="col-md-4">
-          <a href="https://nathan-rosenboom.github.io/Code_Refactor/">
+          <a href="https://darciechapman.github.io/event-finder/" target="_blank">
           <div class="card">
             <img
               class="card-img-top"
-              src="assets/project01.jpg"
-              alt="Code Refactor Project"
+              src="assets/Event_finder_thumbnail.jpg"
+              alt="Event Finder"
             />
-            <div class="card-body project-card">Code Refactor Project</div></a>
+            <div class="card-body project-card">Event Finder</div></a>
           </div>
         </div>
         <div class="col-md-4">
+          <a href="https://nathan-rosenboom.github.io/Password_Generator/" target="_blank">
           <div class="card">
             <img
               class="card-img-top"
-              src="https://dummyimage.com/600x600/000/fff.jpg&text=Placeholder"
+              src="assets/Password_generator_thumbnail.jpg"
               alt="placeholder"
             />
-            <div class="card-body project-card">Placeholder</div>
+            <div class="card-body project-card">Password Generator</div>
           </div>
+        </a>
         </div>
         <div class="col-md-4">
           <div class="card">
@@ -75,7 +78,7 @@
       </div>
     </div>
     <!--Footer code - Keep the same across all linked pages-->
-    <footer class="navbar fixed-bottom navbar-dark bg-primary">
+    <footer class="navbar fixed-bottom navbar-dark bg-primary footer">
       <a class="navbar-brand" href="#!">Made by Nathan Rosenboom</a>
     </footer>
   </body>
