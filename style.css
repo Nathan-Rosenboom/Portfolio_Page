@@ -1,35 +1,58 @@
+/* colour scheme: #2e5266, #6e8898, #9fb1bc, #d3d0cb, #e2c044 */
 body {
-    background-color: gray;
+    background-color: #2E5266;
 }
 
-.navbar {
-    background-color: white;
-    font-weight: bolder;
+.header {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Nunito;
+    background-image: linear-gradient(#9fb1bc, #2E5266);
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Rubik;
 }
 
 .btn-secondary{
+    color: #d3d0cb;
     margin-left: 10px;
-    border-color: black;
-    border-width: 1px;
+    border-color: #d3d0cb;
+    border-width: 2px;
     border-style: solid;
+    
 }
 
 .container {
-    background-color: white;
+    background-color: #6e8898;
     padding-bottom: 20px;
     margin-top: 10px;
     margin-bottom: 60px;
 }
 
 .rounded-lg {
-    border-color: black;
-    border-width: 1px;
+    border-color: #d3d0cb;
+    border-width: 2px;
     border-style: solid;
 }
-
+.rounded-circle {
+    padding: 2px;
+}
 .card {
     margin-top: 20px;
-    
+    background-color: #6e8898;
+    border-style: none;
+}
+
+#about{
+    font-family: Nunito;
+}
+
+.card-body {
+    font-family: Nunito;
+    background-color: #6e8898;
 }
 
 .project-card {
@@ -38,7 +61,7 @@ body {
 }
 
 .bg-primary {
-    background-color: white!important;
+    background-color: #9fb1bc!important;
 }
 
 .navbar-dark .navbar-brand {
@@ -47,4 +70,12 @@ body {
     margin: auto;
     color: black;
     text-align: center;
+
+}
+
+.footer {
+    text-align: center;
+    font-family: Rubik;
+    font-weight: bolder;
+    background-image: linear-gradient(#2E5266, #9fb1bc);
 }
