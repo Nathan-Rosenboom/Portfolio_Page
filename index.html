@@ -1,72 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Nathan Rosenboom</title>
-  </head>
-  <body>
-    <!--Navbar Code - Keep the same across all linked pages-->
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Nathan Rosenboom</a>
-      <div
-        class="btn-group btn-group-lg"
-        role="group"
-        aria-label="Basic example"
-      >
-        <a href="index.html"
-          ><button type="button" class="btn btn-secondary">About</button></a
-        >
-        <a href="portfolio.html"
-          ><button type="button" class="btn btn-secondary">Portfolio</button></a
-        >
-        <a href="contact.html"
-          ><button type="button" class="btn btn-secondary">Contact</button></a
-        >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;900&family=Rubik:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/3a3c3be583.js"></script>
+
+  <title>Nathan Rosenboom</title>
+</head>
+
+<body>
+  <!--Navbar Code - Keep the same across all linked pages-->
+  <nav class="navbar navbar-nav navbar-light bg-light header">
+    <a class="navbar-brand title" href="index.html">Nathan Rosenboom</a>
+    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+      <a href="index.html"><button type="button" class="btn btn-secondary">About</button></a>
+      <a href="portfolio.html"><button type="button" class="btn btn-secondary">Portfolio</button></a>
+      <a href="contact.html"><button type="button" class="btn btn-secondary">Contact</button></a>
+    </div>
+  </nav>
+  <div class="container rounded-lg">
+    <div class="row">
+      <div class="col-sm-4">
+        <h1 id="about">About me</h1>
       </div>
-    </nav>
-    <div class="container rounded-lg">
-      <div class="row">
-        <div class="col-md-4">
-          <h1>About me</h1>
-        </div>
+    </div>
+    <!--Round profile image-->
+    <div class="row">
+      <div class="col-sm-4">
+        <img class="img-thumbnail rounded-circle profile-picture" src="assets/profile.jpg" alt="Profile image" />
       </div>
-      <!--Round profile image-->
-      <div class="row">
-        <div class="col-md-4">
-          <img
-            class="img-thumbnail rounded-circle"
-            src="assets/profile.jpg"
-            alt="Profile image"
-          />
-        </div>
-        <div class="col-md-8">
-          <!--Biography-->
-          <div class="card">
-            <div class="card-body">
-              <p>
-              I currently work at the Edith Cowan University Survey Research Centre as a research interviewer, conducting research for various government agencies.
-              I'm presently working towards a career in web development, undertaking studies at UWA's Cooding Bootcamp program.
-              </p>
-              <p>
-                I was born in the town of Numurkah in northern Victoria, but currently live in Yanchep, Western Australia. In my free time i enjoy hiking, photography, gaming as well as spending time with my family.
-              </p>
+      <div class="col-sm-8">
+        <!--Biography-->
+        <div class="card">
+          <div class="card-body">
+            <p>
+              I currently work at the Edith Cowan University Survey Research Centre as a research interviewer,
+              conducting research for various government agencies.
+              I'm presently working towards a career in web development, undertaking studies at UWA's Cooding Bootcamp
+              program.
+            </p>
+            <p>
+              I was born in the town of Numurkah in northern Victoria, but currently live in Yanchep, Western Australia.
+              In my free time i enjoy hiking, photography, gaming as well as spending time with my family.
+            </p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <a href="https://github.com/Nathan-Rosenboom" target="_blank"><button type="button" class="btn btn-secondary">
+                <i class="fab fa-github"></i>
+                Github</button></a>
+              <a href="https://www.linkedin.com/in/nathan-rosenboom-5410571a6/" target="_blank"><button type="button" class="btn btn-secondary">
+                <span class="fab fa-linkedin mr-2"></span>
+                LinkedIn</button></a>
+              <a href="#!" target="_blank"><button type="button" class="btn btn-secondary">
+                <span class="fas fa-file-pdf mr-2"></span>
+                Resume</button></a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--Footer code - Keep the same across all linked pages-->
-    <nav class="navbar fixed-bottom navbar-dark bg-primary">
-      <a class="navbar-brand" href="#!">Made by Nathan Rosenboom</a>
-    </nav>
-  </body>
+  </div>
+  <!--Footer code - Keep the same across all linked pages-->
+  <nav class="navbar fixed-bottom navbar-dark bg-primary footer">
+    <a class="navbar-brand" href="#!">Made by Nathan Rosenboom</a>
+  </nav>
+</body>
+
 </html>
